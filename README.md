@@ -11,7 +11,6 @@ The Weather App is still in development, and several features and functionalitie
 
 ⭐ Virtual Reality Weather Experience: Immerse yourself in a 3D virtual environment showcasing real-time weather conditions.
 
-<br >
 
 🚀 Time-Travel Weather Forecast: Peek into the future with a unique feature that allows users to visualize weather forecasts for specific dates.
 
