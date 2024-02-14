@@ -363,6 +363,10 @@ ul {
   padding-bottom: 120px;
 }
 
+.landing .container.cool {
+  padding-bottom: 0px;
+}
+
 .landing .text {
   flex: 1;
   color: white;
@@ -408,7 +412,7 @@ ul {
   position: relative;
   border-radius: 10px;
   width: 300px;
-  animation: up-and-down 5s linear infinite;
+  animation: up-and-down 7s linear infinite;
 }
 
 @media (max-width: 991px) {
@@ -3474,93 +3478,6 @@ discount
   max-width: 100%;
 }
 /* End Discount */
-/* start discounat  */
-/* .discount {
-  min-width: 100vh;
-  display: flex;
-  flex-wrap: wrap;
-}
-.discount .content {
-  text-align: center;
-  padding: 0 20px;
-}
-.discount .content h2 {
-  font-size: 40px;
-  letter-spacing: -2px;
-}
-.discount .content p {
-  line-height: 1.6;
-  font-size: 18px;
-  max-width: 500px;
-}
-.discount .image {
-  background-image: url("../imgs/discount-background1.jpg");
-  background-size: cover;
-  color: white;
-  display: flex;
-  flex-basis: 50%;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  z-index: 1;
-}
-.discount .image::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgb(23 135 254 / 97%);
-  z-index: -1;
-}
-.discount .form {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-basis: 50%;
-  padding-bottom: 50px;
-}
-.discount .form .input {
-  display: block;
-  width: 100%;
-  padding: 15px;
-  margin-bottom: 25px;
-  border: none;
-  border-bottom: 1px solid #ccc;
-  background-color: #f9f9f9;
-  caret-color: var(--main-color);
-}
-.discount .form .input textarea.input {
-  resize: none;
-  height: 200px;
-}
-.discount .form .input:focus {
-  outline: none;
-}
-.discount .form [type="submit"] {
-  display: block;
-  width: 100%;
-  padding: 15px;
-  background-color: var(--main-color);
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  border: 0;
-  cursor: pointer;
-  transition: var(--main-transition) ;
-}
-.discount .form [type="submit"]:hover {
-  background-color: var(--main-color-alt);
-}
-@media (max-width: 991px) {
-  .discount .image,
-  .discount .form {
-    flex-basis: 100%;
-  }
-} 
-*/
-/* end discounat  */
 /* start footer  */
 .footer {
   background-color: #191919;
