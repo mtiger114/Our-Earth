@@ -6,7 +6,9 @@ This Weather App project was initiated in November with the goal of creating a u
 The Weather App is still in development, and several features and functionalities are yet to be implemented. The application's core functionalities, such as fetching weather data and displaying basic information, may be operational, but advanced features and a polished user interface are pending completion.
 
 ## Exciting New Features
+
 <br>
+
 ⭐ Virtual Reality Weather Experience: Immerse yourself in a 3D virtual environment showcasing real-time weather conditions.
 
 <br >
