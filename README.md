@@ -9,13 +9,18 @@ The Weather App is still in development, and several features and functionalitie
 <br>
 ⭐ Virtual Reality Weather Experience: Immerse yourself in a 3D virtual environment showcasing real-time weather conditions.
 
+
 🚀 Time-Travel Weather Forecast: Peek into the future with a unique feature that allows users to visualize weather forecasts for specific dates.
+
 
 🎨 Personalized Themes: Customize the app with a variety of visually stunning themes to suit your mood and preferences.
 
+
 🌐 Global Weather Comparison: Explore and compare weather conditions from different locations around the world simultaneously.
 
+
 📱 Social Weather Updates: Share your local weather experiences with friends and receive real-time updates from their locations.
+
 
 🌟 Interactive Weather Games: Enjoy educational and entertaining games related to weather patterns, making learning about meteorology fun.
 
