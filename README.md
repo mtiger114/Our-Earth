@@ -1,11 +1,11 @@
-#Weather App (Unfinished)
-##Overview
+# Weather App (WIP)
+## Overview
 This Weather App project was initiated in November with the goal of creating a user-friendly application to provide accurate and up-to-date weather information. However, as of the current state, the project remains unfinished and is a work in progress.
 
-##Project Status
+## Project Status
 The Weather App is still in development, and several features and functionalities are yet to be implemented. The application's core functionalities, such as fetching weather data and displaying basic information, may be operational, but advanced features and a polished user interface are pending completion.
 
-##Exciting New Features
+## Exciting New Features
 <br>
 ⭐ Virtual Reality Weather Experience: Immerse yourself in a 3D virtual environment showcasing real-time weather conditions.
 
