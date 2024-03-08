@@ -1,5 +1,5 @@
 // Function to open overlay when a box is clicked
-var boxes = document.querySelectorAll(".box");
+var boxes = document.querySelectorAll(".element");
 boxes.forEach(function (box) {
   box.addEventListener("click", function () {
     document.getElementById("overlay").style.display = "block";
