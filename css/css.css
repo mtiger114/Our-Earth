@@ -3723,3 +3723,25 @@ discount
     padding: 20px;
     border-radius: 5px;
   }
+
+  .rating {
+    border: none;
+  }
+  
+  .rating input {
+    display: none;
+  }
+  
+  .rating label {
+    float: right;
+    cursor: pointer;
+    font-size: 30px;
+    color: #ccc;
+  }
+  
+  .rating label:hover,
+  .rating label:hover ~ label,
+  .rating input:checked ~ label {
+    color: #ffc700;
+  }
+  

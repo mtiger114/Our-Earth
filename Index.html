@@ -176,9 +176,22 @@
 <!-- overlay content -->
 <div class="overlay" id="overlay">
   <div class="overlay-content">
-    <h3>Box Information</h3>
-    <p>This is information about the selected box.</p>
-    <p>Email: example@example.com</p>
+    <h3>5$</h3>
+    <p>شكرا لكم لشراء هذا المنتج</p>
+    <input type="email" placeholder="البريد الالكتروني">
+    <fieldset class="rating">
+      <input type="radio" id="star5" name="rating" value="5">
+      <label for="star5" title="5 stars"><i class="fas fa-star fa-fw"></i></label>
+      <input type="radio" id="star4" name="rating" value="4">
+      <label for="star4" title="4 stars"><i class="fas fa-star fa-fw"></i></label>
+      <input type="radio" id="star3" name="rating" value="3">
+      <label for="star3" title="3 stars"><i class="fas fa-star fa-fw"></i></label>
+      <input type="radio" id="star2" name="rating" value="2">
+      <label for="star2" title="2 stars"><i class="fas fa-star fa-fw"></i></label>
+      <input type="radio" id="star1" name="rating" value="1">
+      <label for="star1" title="1 star"><i class="fas fa-star fa-fw"></i></label>
+    </fieldset>
+    <button type="submit" onclick="closeOverlay()">شراء</button>
     <button onclick="closeOverlay()">Close</button>
   </div>
 </div>
