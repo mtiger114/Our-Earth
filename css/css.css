@@ -353,7 +353,7 @@ ul {
   transform-origin: top left;
 }
 .lol {
-  width: 500px;
+  max-width: 500px;
   border-radius: 20px;
 }
 .landing .container {
@@ -376,6 +376,9 @@ ul {
   .landing .text {
     text-align: center;
     color: white;
+  }
+  .lol {
+    max-width: 300px;
   }
 }
 
@@ -3698,10 +3701,51 @@ discount
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: white;
-  padding: 20px;
+  padding: 50px;
   border-radius: 5px;
 }
+.gg {
+  color: var(--main-color);
+}
+.eemail {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.buy {
+  background-color: var(--main-color);
+  color: #fff;
+  margin: 20px auto;
+  padding: 10px 20px;
+  width: 200px;
+  transition: var(--main-transition);
+  border-radius: 10px;
+}
+.buy:hover {
+  background-color: var(--main-color-alt);
+}
+.close-now {
+  position: absolute;
+  border: none;
 
+  top: 0;
+  left: 0;
+  background-color: var(--main-color);
+  color: #fff;
+  padding: 10px 20px;
+  transition: var(--main-transition);
+  border-radius: 5px;
+}
+.close-now:hover {
+  background-color: var(--main-color-alt);
+}
+
+.bb-10 {
+  padding-bottom: 20px;
+}
+.mt-10 {
+  margin-top: 40px;
+}
 
   /* Styles for overlay */
   .search-overlay {
