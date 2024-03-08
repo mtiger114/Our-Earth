@@ -14,20 +14,34 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap" rel="stylesheet">  </head>
   <body>
-  <!-- start header  -->
-  <div class="header" id="header">
-    <!-- id = to make a scroll up btn -->
-    <div class="container">
-      <a href="#" class="logo">مناخنا</a>
-      <ul class="main-nav">
-        <li><a href="#articles">مقالات</a></li>
-        <li><a href="#gallery">منتجات</a></li>
-        <li><a href="#work-steps">البيئة</a></li>
-        <li><a href="#videos">مصادر</a>
-      </li>
-      </ul>
-    </div>
+
+<!-- start header -->
+<div class="header" id="header">
+  <!-- id = to make a scroll up btn -->
+  <div class="container">
+    <a href="#" class="logo">مناخنا</a>
+    <ul class="main-nav">
+      <li><a href="#articles">مقالات</a></li>
+      <li><a href="#gallery">منتجات</a></li>
+      <li><a href="#work-steps">البيئة</a></li>
+      <li><a href="#videos">مصادر</a></li>
+      <li><a href="./logs/login.html">تسجيل</a></li>
+      <li><a href="#" onclick="openSearchOverlay()"><i class="fas fa-search fa-fw"></i></a></li>
+    </ul>
   </div>
+</div>
+<!-- end header -->
+
+<!-- Overlay content for search -->
+<div class="overlay" id="searchOverlay">
+  <div class="search-container">
+    <input type="text" id="searchInput" placeholder="Search...">
+    <button onclick="closeSearchOverlay()">x</button>
+    <button onclick="closeSearchOverlay()">ابحث</button>
+  </div>
+</div>
+
+
   <!-- end header  -->
   <!-- start landing -->
   <div class="landing">
@@ -50,6 +64,40 @@
   </div>
   </div> 
   <!-- end landing -->
+      <!-- start work  -->
+      <div class="work-steps" id="work-steps">
+        <h2 class="main-title">البيئة</h2>
+        <div class="container">
+          <img src="imgs/section6.jpg" alt="" class="lol">
+          <div class="info">
+            <div class="box">
+              <div class="text">
+                <h3>المحيط</h3>
+                <p>
+                  لنحافظ علي المحيط يجب علينا جميعا ان نقلل من اسنهلاك النفط ...المزيد
+                </p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="text">
+                <h3>الاحتباس الحراري</h3>
+                <p>
+                  كما نعلم جميعا ان الكوكب يتغير يوما تلو الاخر وتزيد نسبة الحرائق و...المزيد
+                </p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="text">
+                <h3>الهواء</h3>
+                <p>
+                  تؤثر المصانع بالسلب علي هوائنا مما ينتجب عنه زيادة هائلة في ال....المزيد
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end work  -->
   <!-- start articles  -->
   <div class="articles" id="articles">
     <h2 class="main-title">مقالات</h2>
@@ -103,63 +151,37 @@
   </div>
   <div class="spikes"></div>
   <!-- end articles  -->
-    <!-- start gallery  -->
-    <div class="gallery" id="gallery">
-      <h2 class="main-title">المنتجات</h2>
-      <div class="container">
-        <div class="box">
-          <div class="image">
-            <img src="imgs/q (1).jpg" alt="">
-          </div>
-        </div>
-        <div class="box">
-          <div class="image">
-            <img src="imgs/q (2).jpg" alt="">
-          </div>
-        </div>
-        <div class="box">
-          <div class="image">
-            <img src="imgs/q (3).jpg" alt="">
-          </div>
-        </div>
+<!-- start gallery -->
+<div class="gallery" id="gallery">
+  <h2 class="main-title">المنتجات</h2>
+  <div class="container">
+    <div class="box">
+      <div class="image">
+        <img src="imgs/q (1).jpg" alt="">
       </div>
     </div>
-    <!-- end gallery  -->
-    <!-- start work  -->
-    <div class="work-steps" id="work-steps">
-      <h2 class="main-title">البيئة</h2>
-      <div class="container">
-        <img src="imgs/section6.jpg" alt="" class="lol">
-        <div class="info">
-          <div class="box">
-            <div class="text">
-              <h3>المحيط</h3>
-              <p>
-                لنحافظ علي المحيط يجب علينا جميعا ان نقلل من اسنهلاك النفط ...المزيد
-              </p>
-            </div>
-          </div>
-          <div class="box">
-            <div class="text">
-              <h3>الاحتباس الحراري</h3>
-              <p>
-                كما نعلم جميعا ان الكوكب يتغير يوما تلو الاخر وتزيد نسبة الحرائق و...المزيد
-              </p>
-            </div>
-          </div>
-          <div class="box">
-            <div class="text">
-              <h3>الهواء</h3>
-              <p>
-                تؤثر المصانع بالسلب علي هوائنا مما ينتجب عنه زيادة هائلة في ال....المزيد
-              </p>
-            </div>
-          </div>
-        </div>
+    <div class="box">
+      <div class="image">
+        <img src="imgs/q (2).jpg" alt="">
       </div>
     </div>
-    <!-- end work  -->
-    <!-- start events  -->
+    <div class="box">
+      <div class="image">
+        <img src="imgs/q (3).jpg" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end gallery -->
+<!-- overlay content -->
+<div class="overlay" id="overlay">
+  <div class="overlay-content">
+    <h3>Box Information</h3>
+    <p>This is information about the selected box.</p>
+    <p>Email: example@example.com</p>
+    <button onclick="closeOverlay()">Close</button>
+  </div>
+</div>
     <!-- start videos   -->
     <div class="videos" id="videos">
       <h2 class="main-title">أفضل المصادر</h2>
@@ -244,5 +266,6 @@
         <p class="copyright">Made With <i class="heart fas fa-heart"></i> By K-Team</p>
       </div>
     <!-- end footer -->
+    <script src="./js/js.js"></script>
   </body>
 </html>
