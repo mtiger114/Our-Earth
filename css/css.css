@@ -380,7 +380,7 @@ ul {
 
 .landing .text {
   flex: 1;
-  padding: 50px;
+  padding: 150px;
   color: white;
 }
 
@@ -427,7 +427,7 @@ ul {
   position: relative;
   border-radius: 10px;
   width: 300px;
-  padding-left: 50px;
+  margin-left: 100px;
   animation: up-and-down 7s linear infinite;
 }
 
