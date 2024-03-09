@@ -367,8 +367,20 @@ ul {
   padding-bottom: 0px;
 }
 
+.container.cool {
+  display: none;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 99;
+}
+
 .landing .text {
   flex: 1;
+  padding: 50px;
   color: white;
 }
 
@@ -386,7 +398,7 @@ ul {
   font-size: 40px;
   margin: 0;
   letter-spacing: -2px;
-  color: white;
+  color: var(--main-color);
 }
 
 @media (max-width: 991px) {
@@ -415,6 +427,7 @@ ul {
   position: relative;
   border-radius: 10px;
   width: 300px;
+  padding-left: 50px;
   animation: up-and-down 7s linear infinite;
 }
 
@@ -3702,4 +3715,11 @@ discount
 .color-m {
   color: var(--main-color);
   font-weight: bold;
+}
+
+@media (max-width: 991px) {
+  .rating label {
+    align-self: center;
+    font-size: 25px;
+  }
 }
