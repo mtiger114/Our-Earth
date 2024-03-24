@@ -1076,7 +1076,6 @@ ul {
   padding-top: 150px;
   padding-bottom: 150px;
   position: relative;
-  background-image: url("../imgs/landing.jpg");
 }
 
 .work-steps .container {
@@ -3723,4 +3722,24 @@ discount
     align-self: center;
     font-size: 25px;
   }
+}
+
+.big {
+  position: relative;
+
+}
+.compo {
+  background-image: url("../imgs/landing.jpg");
+}
+
+.hahaha  {
+  position: absolute;
+  width: 100vh;
+  height: 100vh;
+  background: black;
+  top: 0;
+  left: 0;
+  margin: 20px;
+  padding: 20px;
+  z-index: 100000000000;
 }
