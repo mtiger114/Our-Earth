@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- favicon -->
+    <link rel="stylesheet" href="CSS/all.css" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="CSS/main.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <main class="position-relative">
+      <div
+        class="main-forecast container-fluid bg-black position-absolute top-0 bottom-0 start-0 end-0 bg-opacity-25"
+      >
+        <div class="row">
+          <!--------------------------------------- Search --------------------------------------->
+
+          <div class="col-md-10 m-auto">
+            <div class="search-forecast p-5">
+              <form class="find-location position-relative">
+                <input
+                  type="text"
+                  class="form-control shadow-none border-0 py-3 rounded-5 bg-dark text-white"
+                  placeholder="Find your location... "
+                />
+                <button
+                  class="btn btn-info text-white position-absolute top-0 end-0 px-5 rounded-5 py-3 px-2"
+                >
+                  Find
+                </button>
+              </form>
+            </div>
+          </div>
+
+          <div class="forecast col-md-12">
+            <div class="row d-flex justify-content-around">
+              <!--------------------------- left --------------------------->
+
+              <div class="main-forecast-left col-md-6 my-5 px-5">
+                <div class="text-center">
+                  <p class="text-white name fw-lighter text-opacity-75 m-0">
+                    Benha , Al Qalyubiyah
+                  </p>
+                  <p class="text-white fw-light m-0 month">5 March</p>
+                  <p
+                    class="fs-1 text text-white fw-lighter m-0 text-opacity-50"
+                  >
+                    cloudy
+                  </p>
+                </div>
+              </div>
+
+              <!--------------------------- right --------------------------->
+
+              <div class="main-forecast-right col-md-6 text-center">
+                <div class="my-5 end-0 me-5">
+                  <p class="fs-1 fw-light">
+                    <span class="text-white">Pressure :</span>
+                    <span class="text-white text-opacity-75 pressure"
+                      >102 1hr PA</span
+                    >
+                  </p>
+                  <p class="fs-1 fw-light">
+                    <span class="text-white">Sunrise :</span>
+                    <span class="text-white text-opacity-75 sunrise">6:38</span>
+                  </p>
+                  <p class="fs-1 fw-light">
+                    <span class="text-white">Sunset :</span>
+                    <span class="text-white text-opacity-75 sunset">18.03</span>
+                  </p>
+                  <p class="text-white fw-normal degree">+20 <sup>o</sup> C</p>
+                </div>
+              </div>
+
+              <!--------------------------- days --------------------------->
+
+              <div class="col-md-10">
+                <div class="row gy-4 gy-md-2 mt-4">
+                  <div class="col-md day1">
+                    <div
+                      class="inner py-2 px-4 shadow border border-1 border-dark border-opacity-50 rounded-5"
+                    >
+                      <h1
+                        class="fs-1 fw-lighter text-center text-white forecastDay1Name"
+                      ></h1>
+                      <div class="text-center">
+                        <img class="w-50" alt="" />
+                      </div>
+                      <div class="text-center text-white">
+                        <p class="fs-6 maxDegreeForecastDay1"></p>
+                        <p class="fs-6 minDegreeForecastDay1"></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md day2">
+                    <div
+                      class="inner py-2 px-4 shadow border border-1 border-dark border-opacity-50 rounded-5"
+                    >
+                      <h1
+                        class="fs-1 fw-lighter text-center text-white forecastDay2Name"
+                      ></h1>
+                      <div class="text-center">
+                        <img class="w-50" alt="" />
+                      </div>
+                      <div class="text-center text-white">
+                        <p class="fs-6 maxDegreeForecastDay2"></p>
+                        <p class="fs-6 minDegreeForecastDay2"></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md day3">
+                    <div
+                      class="inner py-2 px-4 shadow border border-1 border-dark border-opacity-50 rounded-5"
+                    >
+                      <h1
+                        class="fs-1 fw-lighter text-center text-white forecastDay3Name"
+                      ></h1>
+                      <div class="text-center">
+                        <img class="w-50" alt="" />
+                      </div>
+                      <div class="text-center text-white">
+                        <p class="fs-6 maxDegreeForecastDay3"></p>
+                        <p class="fs-6 minDegreeForecastDay3"></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md day4">
+                    <div
+                      class="inner py-2 px-4 shadow border border-1 border-dark border-opacity-50 rounded-5"
+                    >
+                      <h1
+                        class="fs-1 fw-lighter text-center text-white forecastDay4Name"
+                      ></h1>
+                      <div class="text-center">
+                        <img class="w-50" alt="" />
+                      </div>
+                      <div class="text-center text-white">
+                        <p class="fs-6 maxDegreeForecastDay4"></p>
+                        <p class="fs-6 minDegreeForecastDay4"></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md day5">
+                    <div
+                      class="inner py-2 px-4 shadow border border-1 border-dark border-opacity-50 rounded-5"
+                    >
+                      <h1
+                        class="fs-1 fw-lighter text-center text-white forecastDay5Name"
+                      ></h1>
+                      <div class="text-center">
+                        <img class="w-50" alt="" />
+                      </div>
+                      <div class="text-center text-white">
+                        <p class="fs-6 maxDegreeForecastDay5"></p>
+                        <p class="fs-6 minDegreeForecastDay5"></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md day6">
+                    <div
+                      class="inner py-2 px-4 shadow border border-1 border-dark border-opacity-50 rounded-5"
+                    >
+                      <h1
+                        class="fs-1 fw-lighter text-center text-white forecastDay6Name"
+                      ></h1>
+                      <div class="text-center">
+                        <img class="w-50" alt="" />
+                      </div>
+                      <div class="text-center text-white">
+                        <p class="fs-6 maxDegreeForecastDay6"></p>
+                        <p class="fs-6 minDegreeForecastDay6"></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md day7">
+                    <div
+                      class="inner py-2 px-4 shadow border border-1 border-dark border-opacity-50 rounded-5"
+                    >
+                      <h1
+                        class="fs-1 fw-lighter text-center text-white forecastDay7Name"
+                      ></h1>
+                      <div class="text-center">
+                        <img class="w-50" alt="" />
+                      </div>
+                      <div class="text-center text-white">
+                        <p class="fs-6 maxDegreeForecastDay7"></p>
+                        <p class="fs-6 minDegreeForecastDay7"></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="JS/bootstrap.bundle.js"></script>
+    <script src="JS/index.js"></script>
+  </body>
+</html>

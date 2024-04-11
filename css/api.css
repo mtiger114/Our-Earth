@@ -1,0 +1,31 @@
+main{
+  background-image: url(../imgs/weather2.jpg);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: repeat-y;
+  height: 100vh;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+main form input {
+  border: 0;
+}
+main form input::placeholder {
+  color: white !important;
+  opacity: 30% !important;
+}
+p{
+  font-size: 5rem;
+}
+@media (max-width: 1198px) {
+  main{
+    height: 200vh;
+  }
+}
+@media (max-width: 768px) {
+  main{
+    height: 600vh;
+  }
+}
