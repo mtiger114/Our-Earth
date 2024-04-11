@@ -19,7 +19,7 @@ main form input::placeholder {
 p{
   font-size: 5rem;
 }
-@media (max-width: 1198px) {
+@media (max-width: 1998px) {
   main{
     height: 200vh;
   }
