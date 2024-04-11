@@ -1,52 +1,31 @@
-/* Main CSS */
-body {
-  font-family: 'Roboto', sans-serif;
+main{
+  background-image: url(../imgs/weather2.jpg);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: repeat-y;
+  height: 100vh;
 }
-
-.custom-input {
-  border: none;
-  padding: 0.75rem;
-  border-radius: 0.5rem;
-  background-color: #212529;
-  color: #fff;
+body{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
 }
-
-.custom-btn {
-  background-color: #17a2b8;
-  color: #fff;
-  padding: 0.75rem 2rem;
-  border-radius: 0.5rem;
-  border: none;
+main form input {
+  border: 0;
 }
-
-.bg-black {
-  background-color: #178d00;
+main form input::placeholder {
+  color: white !important;
+  opacity: 30% !important;
 }
-
-.text-white {
-  color: #fff !important;
+p{
+  font-size: 5rem;
 }
-
-.text-opacity-75 {
-  opacity: 0.75;
+@media (max-width: 1198px) {
+  main{
+    height: 200vh;
+  }
 }
-
-.text-center {
-  text-align: center;
+@media (max-width: 768px) {
+  main{
+    height: 600vh;
+  }
 }
-
-.custom-card {
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 0.5rem;
-}
-
-.pressure,
-.sunrise,
-.sunset,
-.degree {
-  color: #fff;
-  opacity: 0.75;
-}
-
-/* Add more styles as needed */
